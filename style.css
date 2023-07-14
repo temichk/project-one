@@ -26,6 +26,7 @@ a {
     .upper-menu {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         height: 88px;
         align-items: center;
         width: 100%;
@@ -68,6 +69,7 @@ a {
     .upper-menu {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         height: 88px;
         align-items: center;
         width: 100%;
@@ -192,7 +194,17 @@ a {
     width: 0;
   }
 
-button:hover {
+.fade-container {
+    position: absolute;
+    right: 0;
+    width: 20px;
+    transform: translateY(-55px);
+    height: 40px;
+    background: url("img/fade.png");
+}
+
+
+.slide-menu button:hover {
     border-radius: 6px;
     border: 2px solid #B8FFEC;
     background: #FFF;
@@ -210,6 +222,7 @@ button:hover {
 
 button {
     background: #FFF;
+    border: none;
     align-items: center;
     margin-left: 16px;
     margin-right: 16px;
