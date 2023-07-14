@@ -147,20 +147,14 @@ a {
     align-items: center;
 }
 
-
-.icon {
-    width: 40px;
-    height: 40px;
-    margin-right: 16px;
+button img {
+    width: 40;
+    height: 40;
 }
 
 .logo {
     width: 97px;
     height: 51px;
-    margin-right: 39px;
-}
-
-.burger {
     margin-left: 16px;
 }
 
@@ -197,8 +191,8 @@ a {
 .fade-container {
     position: absolute;
     right: 0;
+    transform: translateY(170px);
     width: 20px;
-    transform: translateY(-55px);
     height: 40px;
     background: url("img/fade.png");
 }
@@ -224,9 +218,6 @@ button {
     background: #FFF;
     border: none;
     align-items: center;
-    margin-left: 16px;
-    margin-right: 16px;
-    height: 40px;
     display: flex;
     vertical-align: middle;
     justify-content: center;
@@ -234,6 +225,25 @@ button {
     size-adjust: 100%;
     white-space: nowrap;
 }
+
+.slide-menu button {
+    background: #FFF;
+    align-items: center;
+    margin-left: 16px;
+    height: 40px;
+    flex-shrink: 0;
+
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.upper-menu button {
+    margin-left: 16px;
+    height: 40px;
+    width: 40px;
+} 
 
 .text-buttons {
     color: #7E7E82;
