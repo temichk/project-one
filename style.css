@@ -142,6 +142,15 @@ a {
   margin-right: 8px;
 }
 
+.upper-left-menu .divider {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.upper-right-menu .profile {
+  margin-right: 16px;
+}
+
 .upper-right-menu,
 .upper-left-menu {
   display: flex;
@@ -157,7 +166,7 @@ button img {
 .logo {
   width: 97px;
   height: 51px;
-  margin-left: 16px;
+  margin-left: 8px;
   margin-right: 16px;
 }
 
@@ -195,10 +204,13 @@ button img {
   position: absolute;
   right: -1px;
   transform: translateY(170px);
-  width: 20px;
+  width: 30px;
   height: 40px;
-  background: url("img/fade.png") no-repeat;
-  background-size: 20px 40px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .slide-menu button:hover {
